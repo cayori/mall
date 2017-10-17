@@ -28,6 +28,7 @@
 	</taglib>
   </jsp-config>
   
+<<<<<<< HEAD
   <context-param>
   	<description>로깅여부</description>
   	<param-name>isLogEnabled</param-name>
@@ -83,6 +84,8 @@
 	<url-pattern>*.go</url-pattern>
   </servlet-mapping>
 
+=======
+>>>>>>> parent of 6cf786e... 내가 작업한 파일들까지. 장바구니 + member jsp 일부
   <servlet>
 	<description></description>
 	<display-name>BasketFrontController</display-name>
@@ -93,31 +96,5 @@
 	<servlet-name>BasketFrontController</servlet-name>
 	<url-pattern>*.ba</url-pattern>
   </servlet-mapping>
-  
-  <servlet>
-	<description></description>
-	<display-name>OrderFrontController</display-name>
-	<servlet-name>OrderFrontController</servlet-name>
-	<servlet-class>net.order.action.OrderFrontController</servlet-class>
-  </servlet>
-  <servlet-mapping>
-	<servlet-name>OrderFrontController</servlet-name>
-	<url-pattern>*.or</url-pattern>
-  </servlet-mapping>
-  
-  <servlet>
-	<description></description>
-	<display-name>AdminOrderFrontController</display-name>
-	<servlet-name>AdminOrderFrontController</servlet-name>
-	<servlet-class>net.admin.order.action.AdminOrderFrontController</servlet-class>
-  </servlet>
-  <servlet-mapping>
-	<servlet-name>AdminOrderFrontController</servlet-name>
-	<url-pattern>*.ao</url-pattern>
-  </servlet-mapping>
-  
-  
-  
-  
   
 </web-app>
