@@ -28,8 +28,29 @@
 	</taglib>
   </jsp-config>
   
+  <context-param>
+  	<description>로깅여부</description>
+  	<param-name>isLogEnabled</param-name>
+    <param-value>true</param-value>
+  </context-param>
+  <context-param>
+	<description>디버깅레벨</description>
+    <param-name>debugLevel</param-name>
+    <param-value>5</param-value>  
+  </context-param>
   
   
+  
+  
+  <servlet>
+    <servlet-name>DBCPInit</servlet-name>
+   	<servlet-class>kh.loader.DBCPInit</servlet-class>
+   	<init-param>
+   		<param-name>jdbcdriver</param-name>
+   		<param-value>oracle.jdbc.driver.OracleDriver</param-value>
+   	</init-param>
+   	<load-on-startup>1</load-on-startup>
+  </servlet>
   
   <servlet>
 	<servlet-name>MemberFrontController</servlet-name>
