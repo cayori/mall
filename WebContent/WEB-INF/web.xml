@@ -28,4 +28,15 @@
 	</taglib>
   </jsp-config>
   
+  <servlet>
+	<description></description>
+	<display-name>BasketFrontController</display-name>
+	<servlet-name>BasketFrontController</servlet-name>
+	<servlet-class>net.basket.action.BasketFrontController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>BasketFrontController</servlet-name>
+	<url-pattern>*.ba</url-pattern>
+  </servlet-mapping>
+  
 </web-app>
