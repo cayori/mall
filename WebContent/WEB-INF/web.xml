@@ -28,7 +28,6 @@
 	</taglib>
   </jsp-config>
   
-<<<<<<< HEAD
   <context-param>
   	<description>로깅여부</description>
   	<param-name>isLogEnabled</param-name>
@@ -84,8 +83,6 @@
 	<url-pattern>*.go</url-pattern>
   </servlet-mapping>
 
-=======
->>>>>>> parent of 6cf786e... 내가 작업한 파일들까지. 장바구니 + member jsp 일부
   <servlet>
 	<description></description>
 	<display-name>BasketFrontController</display-name>

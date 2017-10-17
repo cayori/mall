@@ -31,7 +31,7 @@ public class MemberLoginAction implements Action {
 				return forward;
 			}
 		} else if (check == 0) {
-			response.setContentType("text/html); charset=euc-kr");
+			response.setContentType("text/html; charset=euc-kr");
 			PrintWriter out = response.getWriter();
 			out.println("<script>");
 			out.println("alert('비밀번호가 일치하지 않습니다.');");

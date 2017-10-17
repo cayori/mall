@@ -35,7 +35,7 @@ public class MemberJoinAction implements Action {
 
 		memberdao.insertMember(dto);
 
-		response.setContentType("text/html); charset=euc-kr");
+		response.setContentType("text/html; charset=euc-kr");
 		PrintWriter out = response.getWriter();
 		out.println("<script>");
 		out.println("alert('회원가입에 성공하였습니다.');");
