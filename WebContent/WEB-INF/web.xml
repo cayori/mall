@@ -28,6 +28,40 @@
 	</taglib>
   </jsp-config>
   
+  
+  
+  
+  <servlet>
+	<servlet-name>MemberFrontController</servlet-name>
+	<servlet-class>net.member.action.MemberFrontController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>MemberFrontController</servlet-name>
+	<url-pattern>*.me</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<description></description>
+	<display-name>AdminGoodsFrontController</display-name>
+	<servlet-name>AdminGoodsFrontController</servlet-name>
+	<servlet-class>net.admin.goods.action.AdminGoodsFrontController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>AdminGoodsFrontController</servlet-name>
+	<url-pattern>*.ag</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<description></description>
+	<display-name>GoodsFrontController</display-name>
+	<servlet-name>GoodsFrontController</servlet-name>
+	<servlet-class>net.goods.action.GoodsFrontController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>GoodsFrontController</servlet-name>
+	<url-pattern>*.go</url-pattern>
+  </servlet-mapping>
+
   <servlet>
 	<description></description>
 	<display-name>BasketFrontController</display-name>
@@ -38,5 +72,31 @@
 	<servlet-name>BasketFrontController</servlet-name>
 	<url-pattern>*.ba</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+	<description></description>
+	<display-name>OrderFrontController</display-name>
+	<servlet-name>OrderFrontController</servlet-name>
+	<servlet-class>net.order.action.OrderFrontController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>OrderFrontController</servlet-name>
+	<url-pattern>*.or</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<description></description>
+	<display-name>AdminOrderFrontController</display-name>
+	<servlet-name>AdminOrderFrontController</servlet-name>
+	<servlet-class>net.admin.order.action.AdminOrderFrontController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>AdminOrderFrontController</servlet-name>
+	<url-pattern>*.ao</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
   
 </web-app>
