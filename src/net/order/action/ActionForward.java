@@ -1,4 +1,4 @@
-package net.admin.order.action;
+package net.order.action;
 
 public class ActionForward {
 	private boolean isRedirect = false;

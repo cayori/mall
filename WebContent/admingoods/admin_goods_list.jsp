@@ -93,7 +93,7 @@ function goodsmodify(goods_num){
 				</td>
 		<td>
 		<p align="center"><img
-		 src="./upload/<%=agb.getGOODS_IMAGE().split(",")[0] %>>"
+		 src="./upload/<%=agb.getGOODS_IMAGE().split(",")[0] %>"
 		 width="50" height="50" border="0"></p>
 		 </td>
 		 <td>

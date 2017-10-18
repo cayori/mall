@@ -14,8 +14,9 @@ import com.oreilly.servlet.multipart.DefaultFileRenamePolicy;
 import net.admin.goods.db.*;
 
 
-public class AdminGoodsAddAction {
+public class AdminGoodsAddAction implements Action{
 
+	@SuppressWarnings("deprecation")
 	public ActionForward execute(HttpServletRequest request,
 			HttpServletResponse response) {
 		ActionForward forward = new ActionForward();

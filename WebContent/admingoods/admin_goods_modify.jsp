@@ -69,7 +69,7 @@
 				<td>
 				<p align="center"><font size=2>¼ö·®</font></p>
 				</td>
-				<td><input type="text" name="goods_size"
+				<td><input type="text" name="goods_amount"
 								value=<%=agb.getGOODS_AMOUNT() %>></td>
 			</tr>
 			<tr>

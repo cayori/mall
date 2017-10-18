@@ -26,7 +26,7 @@
 				<td height="331">
 				<table border="1" align="center" width="558">
 				<tr>
-				<td width="196 height="30">
+				<td width="196" height="30">
 					<p align="center">
 						<font size=2>카테고리</font>
 						</p>

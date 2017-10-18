@@ -35,7 +35,7 @@ public class AdminGoodsFrontController extends HttpServlet {
 			}catch(Exception e) {
 				e.printStackTrace();
 			}
-		}else if(command.equals("GoodsList.ag")) {
+		}else if(command.equals("/GoodsList.ag")) {
 			action=new AdminGoodsListAction();
 			try {
 				forward=action.execute(request, response);

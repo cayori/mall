@@ -12,7 +12,7 @@ public class BasketAddAction implements Action{
 	public ActionForward execute(HttpServletRequest request, HttpServletResponse response) throws Exception{
 		BasketDAO basketdao = new BasketDAO();
 		HttpSession session = request.getSession();
-		String id = (String)session.getAttribute("id");
+		String id = (String)session.getAttribute("id");				// userid
 		
 		if(id == null) {
 			PrintWriter out = response.getWriter();

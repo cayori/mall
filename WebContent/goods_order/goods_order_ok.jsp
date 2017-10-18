@@ -8,7 +8,7 @@
 <table width="960" cellspacing="0" cellpadding="0" border="0" align="center">
 	<tr>
 		<td colspan=2 align=center>
-			<b><font size=5>주문이 왼료되었습니다.</font></b>
+			<b><font size=5>주문이 완료되었습니다.</font></b>
 			<table width=50% border=0 cellpadding="0" cellspacing="1">
 				<tr><td height=10><td></tr>
 				<tr><td height=10><td></tr>

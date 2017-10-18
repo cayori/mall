@@ -1,4 +1,4 @@
-package net.admin.order.action;
+package net.order.action;
 
 import javax.servlet.http.*;
 

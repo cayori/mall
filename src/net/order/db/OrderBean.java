@@ -102,7 +102,7 @@ public class OrderBean {
 	
 	public int getORDER_SUM_MONEY()
 	{ return ORDER_SUM_MONEY; }
-	public void setORDER_SUM_MOENY(int order_sum_money)
+	public void setORDER_SUM_MONEY(int order_sum_money)
 	{ ORDER_SUM_MONEY = order_sum_money; }
 	
 	public String getORDER_TRADE_TYPE()

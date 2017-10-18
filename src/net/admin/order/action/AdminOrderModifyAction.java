@@ -4,7 +4,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import net.admin.order.db.AdminOrderDAO;
-import net.admin.order.db.OrderBean;
+import net.order.db.OrderBean;
 
 public class AdminOrderModifyAction implements Action {
 	public ActionForward execute(HttpServletRequest request,HttpServletResponse response)

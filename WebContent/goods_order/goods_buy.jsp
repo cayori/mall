@@ -28,7 +28,7 @@
 <body>
 <table width="960" cellspacing="0" cellpadding="0" border="0" align="center">
 	<tr>
-		<td colspan=2 align=right>
+		<td colspan=2 align="center">
 		<!-- 주문 페이지 -->
 		<form action="./OrderAdd.or" method="post" name="orderform">
 			<input type="hidden" name="ordertype" value="<%=ordertype %>">
@@ -50,7 +50,7 @@
 		<!-- 주문 상세내역 -->
 		<table border=0 cellspacing=1 cellpadding=0 width=80%>
 			<tr>
-				<p align=left><b><font size=2>주문 상세내역</font></b></p>
+				<p align="left"><b><font size=2>주문 상세내역</font></b></p>
 			</tr>
 			<tr align=center height=20>
 				<td style="font-family: Tahoma; font-size: 8pt; font-weight: bold;">사진</td>

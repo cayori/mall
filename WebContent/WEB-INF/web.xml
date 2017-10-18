@@ -60,4 +60,27 @@
 	<url-pattern>*.ba</url-pattern>
   </servlet-mapping>
   
+  <servlet>
+	<description></description>
+	<display-name>OrderFrontController</display-name>
+	<servlet-name>OrderFrontController</servlet-name>
+	<servlet-class>net.order.action.OrderFrontController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>OrderFrontController</servlet-name>
+	<url-pattern>*.or</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<description></description>
+	<display-name>AdminOrderFrontController</display-name>
+	<servlet-name>AdminOrderFrontController</servlet-name>
+	<servlet-class>net.admin.order.action.AdminOrderFrontController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>AdminOrderFrontController</servlet-name>
+	<url-pattern>*.ao</url-pattern>
+  </servlet-mapping>
+
+
 </web-app>

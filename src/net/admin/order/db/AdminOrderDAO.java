@@ -11,7 +11,7 @@ import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.sql.DataSource;
 
-import net.admin.order.db.OrderBean;
+import net.order.db.OrderBean;
 
 public class AdminOrderDAO {
 	Connection conn;

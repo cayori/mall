@@ -98,7 +98,7 @@ public class OrderDAO {
 				order.setORDER_GOODS_AMOUNT(rs.getInt("ORDER_GOODS_AMOUNT"));
 				order.setORDER_GOODS_SIZE(rs.getString("ORDER_GOODS_SIZE"));
 				order.setORDER_GOODS_COLOR(rs.getString("ORDER_GOODS_COLOR"));
-				order.setORDER_SUM_MOENY(rs.getInt("ORDER_SUM_MONEY"));
+				order.setORDER_SUM_MONEY(rs.getInt("ORDER_SUM_MONEY"));
 				order.setORDER_STATUS(rs.getInt("ORDER_STATUS"));
 				order.setORDER_DATE(rs.getDate("ORDER_DATE"));
 				

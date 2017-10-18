@@ -24,6 +24,7 @@ public class BasketDAO {
 			Context initCtx = new InitialContext();
 			Context envCtx = (Context)initCtx.lookup("java:comp/env");
 			DataSource ds = (DataSource)envCtx.lookup("jdbc/OracleDB");
+			conn=ds.getConnection();
 		}catch(Exception ex) {
 			System.out.println("DB 연결실패 (BasketDAO): " + ex);
 			return;
@@ -41,8 +42,9 @@ public class BasketDAO {
 			pstmt = conn.prepareStatement(sql);
 			pstmt.setString(1, id);
 			rs = pstmt.executeQuery();
-			
+			int rscount = 0;
 			while(rs.next()) {
+				System.err.println(rscount);			
 				BasketBean dto = new BasketBean();
 				GoodsBean goods = new GoodsBean();
 				
@@ -69,6 +71,8 @@ public class BasketDAO {
 				
 				basketlist.add(dto);
 				goodslist.add(goods);
+				
+				System.err.println("BasketDAO.getBasketList() 에서 basketlist/goodslist 입력카운트: "+(++rscount));
 			}
 			vector.add(basketlist);
 			vector.addElement(goodslist);			

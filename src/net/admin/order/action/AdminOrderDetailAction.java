@@ -6,7 +6,7 @@ import javax.servlet.http.HttpServletResponse;
 import net.admin.order.db.AdminOrderDAO;
 import net.member.db.MemberBean;
 import net.member.db.MemberDAO;
-import net.admin.order.db.OrderBean;
+import net.order.db.OrderBean;
 
 public class AdminOrderDetailAction implements Action {
 	public ActionForward execute(HttpServletRequest request,HttpServletResponse response)

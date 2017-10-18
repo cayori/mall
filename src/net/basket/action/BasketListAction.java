@@ -26,11 +26,13 @@ public class BasketListAction implements Action{
 			out.println("</sctipt>");
 			out.close();
 		}
-		
+		System.err.println("BasketListAction: vector 진행 전");
 		Vector vector = basketdao.getBasketList(id);
+		System.err.println("BasketListAction: vector = basketdao.getBasketList(id) 후");
 		List basketlist = (ArrayList)vector.get(0);
+		System.err.println("BasketListAction: basketlist = (ArrayList)vector.get(0) 후");
 		List goodslist = (ArrayList)vector.get(1);
-		
+		System.err.println("BasketListAction: goodslist = (ArrayList)vector.get(1) 후");
 		request.setAttribute("basketlist", basketlist);
 		request.setAttribute("goodslist", goodslist);
 		
